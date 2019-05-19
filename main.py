@@ -1,4 +1,3 @@
-#график зависимости интенсивности света от координаты для интерференционной схемы юнга
 import matplotlib.pyplot as plt
 import numpy as np
 from math import cos,pi,sin
