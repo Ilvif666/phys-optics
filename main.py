@@ -1,11 +1,7 @@
 #график зависимости интенсивности света от координаты для интерференционной схемы юнга
-from matplotlib.ticker import FuncFormatter
 import matplotlib.pyplot as plt
 import numpy as np
 from math import cos,pi,sin
-import itertools
-from scipy.signal import argrelextrema
-
 def I(x):# анализируемая функция
     return 4*I0*(cos(pi*x*d/(L*lambd)))**2
 def Ialt(x,lambd):
