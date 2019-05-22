@@ -38,7 +38,7 @@ plt.ylabel("I, вт/м^2")
 plt.grid(True)
 ###end of task2
 ###task 3
-lambd, d, b = 500E-9, 10E-6, 2E-6
+lambd, d, b, N = 500E-9, 10E-6, 2E-6, 1000
 i3 = [I2(each) for each in x]
 plt.figure()
 plt.plot(x, i3)
